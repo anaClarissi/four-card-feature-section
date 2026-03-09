@@ -127,6 +127,20 @@ main {
     background-color: var(--color-quaternary);
 }
 
+@media (max-width: 1060px) {
+
+    .card-container {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .card-item {
+        width: 100%;
+        height: 200px;
+    }
+    
+}
+
 @media (max-width: 375px) {
 
     main {
@@ -144,14 +158,4 @@ main {
         font-weight: 400;
     }
 
-    .card-container {
-        flex-direction: column;
-        margin-bottom: 50px;
-    }
-
-    .card-item {
-        width: 100%;
-        height: 200px;
-    }
-    
 }
