@@ -22,8 +22,10 @@
 }
 
 body {
+    height: 100vh;
     font-family: var(--font-primary);
     font-size: 0.93rem;
+    background-color: var(--color-neutral-00);
 }
 
 main {
